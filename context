@@ -1,0 +1,22 @@
+eact Interview Prep — Context Handoff
+
+Background: Preparing for a technical interview tomorrow. Knows Python and JavaScript conceptually, minimal React experience. Working through React fundamentals one concept at a time with hands-on challenges.
+
+Environment: No Node installed locally. Using StackBlitz (stackblitz.com, React template) to run code. App.jsx in /home/dyuan/ProgramProjects/react_review/App.jsx stores all solutions for reference — copy the relevant App export into StackBlitz to run it.
+
+Completed:
+
+Concept 1: Components ✓
+Concept 2: Props ✓
+Concept 3: useState ✓
+Concept 4: useEffect + fetch ✓
+Up next — Concept 5: Event handling (onChange)
+
+Challenge: build a search box — an <input> and a <p> below it that displays whatever you've typed. Uses onChange, the event object e, and e.target.value.
+
+
+<input onChange={(e) => setText(e.target.value)} />
+After that: the mini-project combining everything — fetch posts from JSONPlaceholder, display them, with a button to load more.
+
+Teaching style preferences: one concept at a time, answer every question before moving on, practical not theoretical, Python analogies when helpful.
+
